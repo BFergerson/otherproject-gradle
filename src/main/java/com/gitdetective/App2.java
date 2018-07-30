@@ -31,6 +31,10 @@ public class App2 {
         yay.myMethod();
     }
 
+    static {
+        registerFeature(Object.class, null);
+    }
+
     private static <T extends Object> void registerFeature(Class<T> type,
                                                            Map<StateNode, T> factory) {
         System.out.println("test");
