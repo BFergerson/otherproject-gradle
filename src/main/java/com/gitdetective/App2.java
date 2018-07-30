@@ -32,11 +32,11 @@ public class App2<T> {
     }
 
     static {
-        registerFeature(Object.class, null);
+        registerFeature(App2.class, null);
     }
 
-    private static <T extends Object> void registerFeature(Class<T> type,
-                                                           Map<StateNode, T> factory) {
+    private static <T extends App2> void registerFeature(Class<T> type,
+                                                         Map<StateNode, T> factory) {
         System.out.println("test");
     }
 }
