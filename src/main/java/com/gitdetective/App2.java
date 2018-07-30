@@ -1,8 +1,10 @@
 package com.gitdetective;
 
 import com.google.common.collect.Lists;
+import jdk.nashorn.internal.runtime.regexp.joni.ast.StateNode;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Hello world!
@@ -27,5 +29,10 @@ public class App2 {
     public static void anotherOne() {
         MyClass yay = new MyClass();
         yay.myMethod();
+    }
+
+    private static <T extends Object> void registerFeature(Class<T> type,
+                                                           Map<StateNode, T> factory) {
+        System.out.println("test");
     }
 }
