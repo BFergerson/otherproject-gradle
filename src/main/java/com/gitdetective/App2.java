@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * Hello world!
  */
-public class App2<T> {
+public class App2 {
     static {
         new MyClass().myMethod();
         System.out.println(String.valueOf(10));
