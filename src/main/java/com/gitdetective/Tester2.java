@@ -1,13 +1,15 @@
 package com.gitdetective;
 
-import java.io.Serializable;
-import java.util.Map;
-
 public class Tester2 {
-    private static class NodeFeatureData implements Serializable {
-        private <T extends Object> NodeFeatureData(Map<Object, T> factory) {
+    private static class outer1 {
+        private void node1() {
             new MyClass().myMethod();
-            //System.out.println(String.valueOf(10));
+        }
+
+        private static class inner2 {
+            private void node2() {
+                new MyClass().myMethod();
+            }
         }
     }
 }
