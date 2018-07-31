@@ -9,23 +9,23 @@ import java.util.List;
  */
 public class App2 {
     static {
-        new MyClass().myMethod();
-        System.out.println(String.valueOf(10));
+//        new MyClass().myMethod();
+//        System.out.println(String.valueOf(10));
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-
-        List arrayList = Lists.newArrayList();
-        MyClass yay = new MyClass();
-        arrayList.add(yay);
-
-        yay.myMethod();
-        System.out.println(arrayList.size());
+//        System.out.println("Hello World!");
+//
+//        List arrayList = Lists.newArrayList();
+//        MyClass yay = new MyClass();
+//        arrayList.add(yay);
+//
+//        yay.myMethod();
+//        System.out.println(arrayList.size());
     }
 
     public static void anotherOne() {
-        MyClass yay = new MyClass();
-        yay.myMethod();
+//        MyClass yay = new MyClass();
+//        yay.myMethod();
     }
 }

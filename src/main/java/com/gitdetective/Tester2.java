@@ -7,7 +7,7 @@ public class Tester2 {
     private static class NodeFeatureData implements Serializable {
         private <T extends Object> NodeFeatureData(Map<Object, T> factory) {
             new MyClass().myMethod();
-            System.out.println(String.valueOf(10));
+            //System.out.println(String.valueOf(10));
         }
     }
 }
