@@ -22,7 +22,7 @@ public class Tester2 {
 
     private static class outer1 {
         private void node1() {
-            new MyClass().myMethod();
+            new MyClass().myMethod2("what");
         }
 
         private static class inner2 {
